@@ -19,6 +19,8 @@ dependencies {
     // Use JUnit test framework.
     testImplementation 'junit:junit:4.13.2'
 
+    implementation platform("commons-lang:commons-lang:2.6", )
+
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:32.1.1-jre'
 }
